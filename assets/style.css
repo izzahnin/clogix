@@ -229,7 +229,9 @@ button {
 .container {
   display: flex;
   flex-direction: column;
+  width: 100%;
   margin-top: 40px;
+  gap: 50px;
 }
 
 .box-1 {
@@ -276,8 +278,133 @@ button {
   display: flex;
   justify-content: center;
   width: 50%;
+  align-items: center;
 }
 
 .col-12 > img {
+  width: 70%;
+}
+
+.box-2 {
+  display: flex;
+  background-color: #f5f8ff;
+  border-radius: 500px 0 0 500px;
+  height: 400px;
+  justify-content: center;
+}
+
+.col-21 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.col-21 > img {
   width: 60%;
+}
+
+.col-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8%;
+  width: 50%;
+  padding: 0 7%;
+}
+
+.col-12 > h2 {
+  color: #002b9a;
+  font-size: 30px;
+}
+
+.col-12 > p {
+  color: #222222;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/* =====SERVICE MAP==== */
+.servicemap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4% 0 4%;
+  margin: 50px 0;
+}
+
+.servicemap > h1 {
+  font-size: 40px;
+  color: #0048ff;
+}
+
+.box {
+  display: flex;
+  background-color: #f9f9f9;
+  height: 400px;
+  justify-content: center;
+}
+
+.box-col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 0 7%;
+}
+
+.box-col-1 > h2 {
+  font-size: 30px;
+  color: #002b9a;
+}
+
+.box-col-2 {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  align-items: center;
+}
+
+.box li {
+  font-size: 20px;
+  padding: 0 14% 0 0;
+  line-height: 34px;
+}
+
+/* =====CONTACT US====== */
+.contactus {
+  padding: 0 4% 0 4%;
+  margin: 50px 0;
+}
+
+.wrap-contact {
+  background: #edf7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 600px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input-box > input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 35px;
+  width: 80%;
+  margin-bottom: 5px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 16px;
 }
